@@ -24,7 +24,7 @@
     width: 354px;
     height: 508px;
   
-    background-image: url(/assets/bg-ignite.svg);
+    background-image: url(./assets/bg-ignite.svg);
   
     cursor: pointer;
   
@@ -65,10 +65,19 @@
     font-size: 14px;
     line-height: 160%;
   }
-  
-  @keyframes appear {
-    to {
-      opacity: 1;
-      transform: translateY(0px);
-    }
+
+ul li a {
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+
+}
+
+@keyframes appear {
+  to {
+    opacity: 1;
+    transform: translateY(0px);
   }
+}
